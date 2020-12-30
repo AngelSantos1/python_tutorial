@@ -1,0 +1,59 @@
+FUNCTIONS
+len() - amount of elements within a list also length
+mylist.append() - adding a single element to my list and placed at the end
+int() - integer or number without decimals
+float() - a number with decimals
+from myfile import myfunction - importing a function definition 
+print() - speak the texts 
+
+
+EXAMPLE FOR LISTS
+[] - an empty list - A value
+
+[1,2,3] - A value and a list containing the elements 1,2,3
+
+[1,[2,3,4],5] - The element at the index 0 is the integer 1, the element at index 1 is a list containing 2,3,4 and the element at index 2 is the integer 5
+
+
+mylist = [1,[2,3,4],5] 
+mylist[1][0] - grab the value at index 1 equal to the list of [2,3,4] then we grab the value at index0 which is equal to 2
+
+
+EXAMPLE FOR CONTROL FLOW
+myindex = 0
+while myindex < 10:
+	#do something
+	myindex = myindex + 1
+
+ 
+mylist[myindex] - grabs a single value from mylist at the position specified at my index - A variable% - modulus. takes the remainder of division 
+== - check for equality  
+= - assigning an value to a variable
+
+
+
+CONTROL FLOW SEQUENCE COMMANDS
+def myfunction() - defining/creating a function from a statement-block of code
+while - repeatedly execute a block of code until specified condition is false
+if - execute a block of code if the specified condition is true
+else - execute a block of code if the previous specified condition is false
+elif - execute a block of code if the previous speicifed condition is false and current specified conditon is true... Continuing to check different conditions. 
+break - stop the repetition despite conditions of current loop
+return - gives back the result of the function and stops a function 
+
+
+
+Terminology
+single value - float, an integer, or a list
+variable - single name in program that stores a single value
+element - a location in a list that stores a single value 
+built in functions - built within python language 
+control-flow-sequences - commands that determine what sequence a part of the program get completed and when 
+
+
+Console Commands
+pip3 - package manager, to install pakcages to import more functions
+grep - searching text or regular expressions/patterns of text, for occurences in a file
+
+ 
+ NOTE Change settings for vim
