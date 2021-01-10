@@ -1,3 +1,7 @@
+NOTE TO SELF a notes about Temporary Variables for Control Flow
+
+
+
 FUNCTIONS
 len() - amount of elements within a list also length
 mylist.append() - adding a single element to my list and placed at the end
@@ -5,6 +9,11 @@ int() - integer or number without decimals
 float() - a number with decimals
 from myfile import myfunction - importing a function definition 
 print() - speak the texts 
+input() - used to prompt inside terminal, opposite of print 
+
+for char in range(len(word) -1, -1, -1): - 
+
+print("\n') - next line, creates an empty line 
 
 
 EXAMPLE FOR LISTS
@@ -31,6 +40,21 @@ mylist[myindex] - grabs a single value from mylist at the position specified at 
 = - assigning an value to a variable
 
 
+EXAMPLE FOR DERIVATIVE
+
+y = 2x^2 = 2x + 2
+
+dy/dx = 4x + 2
+
+'delta y over delta x' = 'change in y over change in x' 
+
+term: coefficient * independent variable ^ exponent
+
+coefficient * exponent  * independent variable ^ (exponent-1) 
+
+derivative of a constant is 0
+
+
 
 CONTROL FLOW SEQUENCE COMMANDS
 def myfunction() - defining/creating a function from a statement-block of code
@@ -49,7 +73,7 @@ variable - single name in program that stores a single value
 element - a location in a list that stores a single value 
 built in functions - built within python language 
 control-flow-sequences - commands that determine what sequence a part of the program get completed and when 
-
+derivative - gives the slope of the curve 
 
 Console Commands
 pip3 - package manager, to install pakcages to import more functions
