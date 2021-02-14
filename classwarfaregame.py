@@ -18,9 +18,7 @@ class Item:
 		self.description = description
 
 
-inputtext = input("What's your character's name? ") 
-
-# Written Feb. 10th. Needs to be tested.  
+inputtext = input("What's your character's name? ")  
 
 player = Character(inputtext, 0, [])
 print("Your character's name is", inputtext)
@@ -31,7 +29,12 @@ items = {
 }
 
 rooms = [
-	Room({"Forward":1}, ["Rusty Spoon"], "You find yourself in a rectangular undulating moist room"), 
+	Room({"Forward":1}, ["Rusty Spoon"], 
+
+"You find yourself in a rectangular undulating moist room. A large neon sign infront of you is stapled to the organic pulsating walls reads: 'Welcome to the Jungle, baby!'"
+
+	),
+ 
 	Room({"Backward":0, "Forward": 2}, [], "This is a dry dusty dank room"),
 	Room({"Backward":1, "DOOM": 3}, [], "Frothy clam room")
 ]  
@@ -66,6 +69,14 @@ while True:
 				resolved = True
 			else:
 				print(list(rooms[player.roomindex].items))
+		elif cmd == "drop":
+			if sel in player.inventory:
+				player.inventory.remove(sel)
+				rooms[player.roomindex].items.append(sel)
+				resolved = True
+			else:
+				print(list(rooms[player.roomindex].items))
+	
 		elif cmd == "list": 
 			#print(player.inventory)
 			for itemname in player.inventory:
