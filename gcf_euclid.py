@@ -10,3 +10,13 @@ def gcf(x,y):
 gcf = gcf(300, 400)
 print('The GCF is', gcf)
 
+
+def gcf(x,y):
+	while (x):
+		x , y = y, x % y
+	return x
+
+gcf = gcf(300,400)
+print(gcf)
+
+	

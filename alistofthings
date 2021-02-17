@@ -10,10 +10,16 @@ float() - a number with decimals
 from myfile import myfunction - importing a function definition 
 print() - speak the texts 
 input() - used to prompt inside terminal, opposite of print 
+range - start, end, step
+in - checks to see if a keys in the dictionary or a value is in a array 
+not - opposite of in (see in) 
+
+end="" - don't print a new line
 
 for char in range(len(word) -1, -1, -1): - 
 
-print("\n') - next line, creates an empty line 
+
+print("\n") - next line, creates an empty line 
 
 
 EXAMPLE FOR LISTS
@@ -61,10 +67,12 @@ def myfunction() - defining/creating a function from a statement-block of code
 while - repeatedly execute a block of code until specified condition is false
 if - execute a block of code if the specified condition is true
 else - execute a block of code if the previous specified condition is false
+
 elif - execute a block of code if the previous speicifed condition is false and current specified conditon is true... Continuing to check different conditions. 
+
 break - stop the repetition despite conditions of current loop
 return - gives back the result of the function and stops a function 
-
+for - short hand for while; basically it assigns (more later)
 
 
 Terminology
